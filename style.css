@@ -1,0 +1,308 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-container {
+  background-image: url("https://images5.alphacoders.com/983/983077.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  padding: 50px;
+  margin-bottom: 30px;
+  padding-top: 30px;
+}
+.logo-name {
+  background-color: white;
+  font-weight: bold;
+  color: rgb(247, 6, 247);
+  padding: 5px;
+  border-radius: 100%;
+  margin-top: 5px;
+}
+.heading {
+  font-family: cursive;
+  font-weight: 500;
+  font-size: 30px;
+  color: yellow;
+  transition: ease 0.5s;
+  padding-top: 120px;
+}
+.heading:hover {
+  filter: drop-shadow(10px 10px 10px rgba(250, 53, 4, 0.986));
+}
+.button-container {
+  padding: 40px;
+  align-items: center;
+}
+.button1 {
+  background-color: rgb(8, 145, 133);
+  color: #f0f3f4;
+  border-radius: 5px;
+  height: 40px;
+  border: 0;
+  margin: 10px;
+  font-weight: 700;
+}
+.button2 {
+  background-color: transparent;
+  border-width: 1px;
+  border-color: white;
+  border-radius: 5px;
+  height: 40px;
+  color: white;
+  margin: 10px;
+  font-weight: 700;
+}
+.menu-card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.item-heading {
+  color: orange;
+  font-weight: 500;
+  font-family: Bree serif;
+}
+.item-para {
+  color: #666666;
+  font-size: 15px;
+  font-family: Roboto;
+  font-style: italic;
+}
+
+.menu-item-card {
+  background-color: white;
+  border-radius: 15px;
+  box-shadow: 5px 5px 5px 5px rgb(190, 187, 187);
+  padding: 10px;
+  margin: 10px;
+}
+@media screen and (min-width: 768px) {
+  .menu-item-card {
+    max-width: 300px;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.menu-image {
+  height: 200px;
+  width: 100%;
+  border-radius: 5px;
+}
+.cake-name {
+  color: #2f4f4f;
+  font-weight: bold;
+  font-size: 20px;
+  padding-top: 5px;
+}
+.price {
+  color: #323232;
+  font-weight: bold;
+}
+.span {
+  color: #dc143c;
+  font-weight: bold;
+  padding-left: 10px;
+}
+.order-now {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.font-order {
+  color: rgba(0, 0, 0, 0.979);
+  font-weight: bold;
+  margin: 5px;
+}
+.items-card-container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+}
+@media screen and (min-width: 868px) {
+  .items-card-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+}
+.ratting-name {
+  color: #000000, rgb(0, 0, 0);
+  font-family: Roboto;
+  font-weight: bold;
+}
+.ratting-num {
+  color: #32cd32;
+  padding-left: 5px;
+  font-weight: bold;
+}
+#NavItem1 {
+  font-weight: 700;
+  font-family: Roboto;
+  color: rgb(255, 255, 255);
+  transition: ease 0.5s;
+}
+#NavItem1:hover {
+  filter: drop-shadow(10px 10px 10px rgba(4, 250, 4, 0.986));
+}
+#Nav-bar2 {
+  margin-left: auto;
+}
+#navbar-top {
+  position: fixed;
+  margin: 0;
+  width: 100%;
+  background-color: #212f3d;
+  overflow: hidden;
+  padding: 0;
+  margin-bottom: 50px;
+}
+#button1 {
+  color: rgb(248, 203, 3);
+  background-color: white;
+}
+.delivery-and-payment {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+@media screen and (min-width: 768px) {
+  .delivery-and-payment {
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+  }
+}
+.delivery-card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 2px 2px 5px 5px rgb(194, 189, 189);
+}
+.delivery-heading {
+  color: #2e4053;
+  font-family: Bree serif;
+}
+.delivery-headline-description {
+  color: #28b463;
+  font-size: 15px;
+  font-family: Roboto;
+  font-style: italic;
+  font-weight: 600;
+}
+.delivery-image {
+  height: 250px;
+  max-width: 50%;
+  width: 300px;
+}
+.delivery-description {
+  color: #696969;
+  font-weight: 700;
+  font-family: Roboto;
+  text-align: center;
+}
+.cod-delivery {
+  color: #581845;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: underline;
+}
+
+.payment-card {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 20px;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 2px 2px 5px 5px rgb(194, 189, 189);
+}
+.payment-heading {
+  color: #2e4053;
+  font-family: Bree serif;
+}
+.payment-image {
+  height: 250px;
+  width: 75%;
+}
+.payment-description {
+  color: #696969;
+  font-weight: 700;
+  font-family: Roboto;
+  text-align: center;
+}
+.payment-method {
+  color: #581845;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: underline;
+}
+.discount {
+  color: #ff1493;
+  font-size: 40px;
+  font-weight: bold;
+}
+.contact-container {
+  background-color: #022536;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.contact-heading {
+  color: #217d90;
+  padding: 20px;
+  font-weight: 700;
+}
+.contact-logo-card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#contact-logo {
+  margin-right: 30px;
+  margin-left: 30px;
+}
+.copy-right {
+  color: #217d90;
+  text-align: center;
+  padding-top: 20px;
+}
+.address {
+  color: #217d90;
+  text-align: center;
+}
+.button-card {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.order-button {
+  background-color: rgb(11, 143, 148);
+  border: 0;
+  height: 40px;
+  border-radius: 5px;
+  font-weight: 700;
+  color: white;
+  padding: 5px;
+}
